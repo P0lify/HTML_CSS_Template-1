@@ -213,19 +213,21 @@ body {
   display: flex;
   margin-bottom: 40px;
 }
-@media (max-width: 767px) {
-  .services .services-content .srv {
-    text-align: center;
-    display: inline-block;
-  }
-  .services .services-content .srv i{
-    margin-bottom: 28px;
-  }  
-}
 .services .services-content .srv i {
   color: var(--main-color);
   flex-basis: 60px;
   font-size: 32px;
+  display: flex;
+}
+@media (max-width: 767px) {
+  .services .services-content .srv {
+    text-align: center;
+    flex-direction: column;
+  }
+  .services .services-content .srv i{
+    margin: 0 auto;
+    justify-content: center;
+  }  
 }
 .services .services-content .srv .text {
   flex: 1;

@@ -95,7 +95,7 @@ body {
   height: 2px;
 }
 .header .links .icon span:first-child,
-.header .links .icon span:last-child{
+.header .links .icon span:last-child {
   width: 100%;
 }
 .header .links .icon span:nth-child(2) {
@@ -144,8 +144,8 @@ body {
 }
 /* End Header */
 /* Start Landing Section */
-.landing .image{
-  background-image: url(../images/landing.jpg);
+.landing .image {
+  background-image: url(../images/landing.webp);
   background-size: cover;
   height: calc(100vh - 64px);
   position: relative;
@@ -224,10 +224,10 @@ body {
     text-align: center;
     flex-direction: column;
   }
-  .services .services-content .srv i{
+  .services .services-content .srv i {
     margin: 0 auto;
     justify-content: center;
-  }  
+  }
 }
 .services .services-content .srv .text {
   flex: 1;
